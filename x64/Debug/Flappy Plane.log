@@ -1,0 +1,3 @@
+﻿  Enemy.cpp
+D:\Flappy Plane\Flappy Plane\Enemy.cpp(12,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Flappy Plane.vcxproj -> D:\Flappy Plane\Flappy Plane\x64\Debug\Flappy Plane.exe
