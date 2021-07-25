@@ -11,7 +11,7 @@ Enemy::Enemy() {
 }
 void Enemy::Spawn() {
 	DrawTextureRec(texture, sprite, pos, WHITE);
-	pos.x = pos.x - 15;
+	pos.x = pos.x - speed;
 	if (pos.x <= -50) {
 		pos.x = 1000;
 		pos.y = GetRandomValue(10, 700);

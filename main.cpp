@@ -18,6 +18,9 @@ int main(int argc, char* argv[]) {
 		fps++;
 		if (!is_dead) {
 			player.Spawn(player.pos);
+			if (fps % 300 == 0) {
+				enemy.speed = enemy.speed + 2;
+			}
 		}
 		else {
 			DrawText("Game Over!",0, 0, 120, RED);

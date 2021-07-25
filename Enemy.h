@@ -9,6 +9,7 @@ private:
 public:
 	Rectangle sprite{ };
 	Rectangle hitbox{ };
+	int speed{ 10 };
 	Enemy();
 	~Enemy();
 	void Spawn();
